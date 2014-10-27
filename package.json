@@ -20,7 +20,8 @@
     "hubot-scripts": "^2.5.16",
     "hubot": "^2.9.0",
     "cron": "^1.0.5",
-    "hubot-rss-reader": "^0.5.4"
+    "hubot-rss-reader": "^0.5.4",
+    "coffee-script": "^1.8.0"
   },
   "engines": {
     "node": "0.10.x"
