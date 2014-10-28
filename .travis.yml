@@ -1,6 +1,11 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
-  - "0.8"
-  - "0.6"
+- '0.11'
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: cCsMAgiZUQpEjOawSGnNTL56nKFh5OGzWdD1Q1iqtx4lG4C1vwsvG3BCt78/ddHwUjF53O4qPvI5VPdLonyPETZYr7YhzdSQ2DcU/6plpbDvpSCB59L4+dRzl/RXdSBQgTjgnDCcQKgMz64AhAQ0PCOIgOuDOhhEwbjoLfLRpck=
+  app: hubot-socrates
+  on:
+    repo: ishii-htm/socrates
